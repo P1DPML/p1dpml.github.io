@@ -437,6 +437,26 @@ h3 {
   color: var(--muted);
 }
 
+.venue-details {
+  max-width: 820px;
+}
+
+.map-link {
+  display: block;
+  text-decoration: none;
+}
+
+.map {
+  display: block;
+  width: 100%;
+  margin: 1.2rem 0 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--soft);
+  aspect-ratio: 41 / 18;
+  object-fit: cover;
+}
+
 .footer {
   display: flex;
   align-items: flex-end;
