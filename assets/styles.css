@@ -144,8 +144,9 @@ h1 {
 }
 
 .workshop-title {
-  max-width: 22ch;
-  font-size: clamp(2.55rem, 5.5vw, 5.1rem);
+  max-width: 24ch;
+  font-size: clamp(2.5rem, 5vw, 4.7rem);
+  line-height: 1.04;
 }
 
 h2 {
@@ -181,6 +182,51 @@ h3 {
 
 .section p {
   margin-top: 0;
+}
+
+.workshop-page .hero {
+  max-width: 1040px;
+  margin-bottom: 5.2rem;
+}
+
+.workshop-page .section {
+  padding-top: 3.8rem;
+  margin-top: 3.8rem;
+}
+
+.workshop-page .section > p,
+.workshop-page .section > ul {
+  max-width: 800px;
+}
+
+.workshop-page ul {
+  margin: 0.2rem 0 1.6rem;
+  padding-left: 1.15rem;
+}
+
+.workshop-page li {
+  padding-left: 0.1rem;
+  margin: 0.28rem 0;
+}
+
+.primary-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.55rem;
+  padding: 0.38rem 0.9rem;
+  border: 1px solid var(--pine);
+  border-radius: 4px;
+  background: var(--pine);
+  color: #f9f7f0;
+  font-weight: 720;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.primary-link:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fffaf4;
 }
 
 .two-column {
@@ -433,18 +479,22 @@ h3 {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
   gap: 1rem;
-  padding: 0.95rem 0.2rem;
+  align-items: baseline;
+  padding: 0.82rem 0.2rem;
   border-bottom: 1px solid var(--line);
 }
 
 .agenda-row time,
 .agenda-row span:first-child {
   color: var(--muted);
+  font-variant-numeric: tabular-nums;
 }
 
 .agenda-item {
-  display: grid;
-  gap: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: baseline;
 }
 
 .agenda-item strong {
@@ -454,7 +504,13 @@ h3 {
 .agenda-speaker {
   color: var(--accent-quiet);
   font-size: 0.94rem;
+  font-style: italic;
   font-weight: 520;
+}
+
+.speaker-grid {
+  grid-template-columns: repeat(3, minmax(0, 220px));
+  gap: 2.8rem;
 }
 
 .venue-details {
