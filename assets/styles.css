@@ -501,6 +501,13 @@ h3 {
   font-weight: 760;
 }
 
+.agenda-item .agenda-label {
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 780;
+  text-transform: uppercase;
+}
+
 .agenda-speaker {
   color: var(--accent-quiet);
   font-size: 0.94rem;
