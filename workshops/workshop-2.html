@@ -31,7 +31,7 @@
         <h2 id="overview">Overview</h2>
         <p>Workshop 2 is part of the Data Privacy in Machine Learning P1 program. It will focus on privacy in limited-trust settings, with particular interest in approaches that bring together ideas from differential privacy, decentralized learning, secure computation, and cryptography. </p>
 
-        <p>The program includes invited talks by Christoph Lampert, Christian Rechberger, Edwige Cyffers, Christian Weinert, and Tamer Mour, as well as contributed talks selected through the call for contributions. The first day of the workshop will be a day of tutorials on differentially private machine learning and cryptography.</p>
+        <p>The program includes invited talks by Christoph Lampert, Christian Rechberger, Edwige Cyffers, Christian Weinert, and Tamer Mour, as well as contributed talks selected through the call for contributions. The first day of the workshop will be a day of tutorials on differentially private machine learning and cryptography by Tamalika Mukherjee, Tamer Mour, and Hannah Keller.</p>
       </section>
 
       <section class="section" aria-labelledby="registration">
@@ -70,6 +70,11 @@
             <h3>Tamer Mour</h3>
             <p>Principal Investigator, The Italian Institute of Artificial Intelligence (AI4I)</p>
           </article>
+           <article class="director">
+            <img src="../assets/people/tamalika-mukherjee.jpg" alt="Tamer Mour">
+            <h3>Tamalika Mukherjee</h3>
+            <p>Research Group Leader, Max Planck Institute for Security and Privacy</p>
+          </article>
         </div>
       </section>
 
@@ -103,18 +108,20 @@
             <div class="agenda">
               <div class="agenda-row"><time datetime="2026-06-11T11:00">10:30-11:15</time><div class="agenda-item"><strong>Tutorial: Primer on Differentially Private Machine Learning I</strong><span class="agenda-speaker">Hannah Keller</span></div></div>
               <div class="agenda-row"><time datetime="2026-06-11T14:50">11:15-11:45</time><strong>Coffee break</strong></div>
-              <div class="agenda-row"><time datetime="2026-06-11T11:00">11:45-12:30</time><div class="agenda-item"><strong>Tutorial: Primer on Differentially Private Machine Learning II</strong><span class="agenda-speaker"></span>Tamalika Mukherjee</div></div>
+              <div class="agenda-row"><time datetime="2026-06-11T11:00">11:45-12:30</time><div class="agenda-item"><strong>Tutorial: Primer on Differentially Private Machine Learning II</strong><span class="agenda-speaker">Tamalika Mukherjee</span></div></div>
               <div class="agenda-row"><time datetime="2026-06-11T12:00">12:30-14:00</time><strong>Lunch break</strong></div>
-              <div class="agenda-row"><time datetime="2026-06-11T12:00">14:00-14:45</time><strong>Tutorial: Cryptography Primer I</strong><span class="agenda-speaker"></span>Tamer Mour</div></div>
+              <div class="agenda-row"><time datetime="2026-06-11T12:00">14:00-14:45</time><div class="agenda-item"><strong>Tutorial: Cryptography Primer I</strong><span class="agenda-speaker">Tamer Mour</span></div></div></div>
               <div class="agenda-row"><time datetime="2026-06-11T14:50">14:45-15:15</time><strong>Coffee break</strong></div>
-              <div class="agenda-row"><time datetime="2026-06-11T12:00">15:15-16:00</time><strong>Tutorial: Cryptography Primer II</strong></div>
+              <div class="agenda-row"><time datetime="2026-06-11T12:00">15:15-16:00</time><div class="agenda-item"><strong>Tutorial: Cryptography Primer II</strong><span class="agenda-speaker">Tamer Mour</span></div></div>
             </div>
           </article>
 
           <article class="schedule-day">
             <h3><time datetime="2026-11-03">November 3, 2026</time></h3>
             <div class="agenda">
-              <div class="agenda-row"><time datetime="2026-06-11T11:00">9:30-10:30</time><div class="agenda-item"><span class="agenda-label">Invited Talk</span><span class="agenda-speaker">Edwige Cyffers</span></div></div>
+              <div class="agenda-row"><time datetime="2026-06-11T11:00">9:30-10:30</time><div class="agenda-item"><span class="agenda-label">Invited Talk</span><strong>From Attacking Decentralized Learning to Pairwise Network Differential Privacy</strong><span class="agenda-speaker">Edwige Cyffers</span>
+              Decentralization is often seen as safer by default, since information is mixed as it travels through the communication graph. We show that this intuition is misleading: an honest-but-curious participant can reconstruct the data of distant nodes, both in gossip and in synchronous decentralized gradient descent. Worse still, a malicious participant can reconstruct the graph topology itself from its local view of the training. These results motivate the use of principled privacy guarantees adapted to decentralized learning, such as Pairwise Network Differential Privacy.
+              </div></div>
               <div class="agenda-row"><time datetime="2026-06-11T14:50">10:30-11:00</time><strong>Coffee break</strong></div>
               <div class="agenda-row"><time datetime="2026-06-11T11:00">11:00-12:15</time><div class="agenda-item"><span class="agenda-label">Contributed Talks</span><strong>Dithered Gaussian Mechanism for Randomness-Efficient Differential Privacy</strong><span class="agenda-speaker"><strong>Nikita Kalinin</strong>, Rasmus Pagh</span>
               <strong>Lower Bounds for Private Graph Optimization Problems using Reconstruction Attacks</strong><span class="agenda-speaker">Jacob Imola, Rasmus Pagh, <strong>Lukas Retschmeier</strong></span>
@@ -138,7 +145,9 @@
             <h3><time datetime="2026-11-04">November 4, 2026</time></h3>
 
             <div class="agenda">
-              <div class="agenda-row"><time datetime="2026-06-11T11:00">9:30-10:30</time><div class="agenda-item"><span class="agenda-label">Invited Talk</span><span class="agenda-speaker">Christoph Lampert</span></div></div>
+              <div class="agenda-row"><time datetime="2026-06-11T11:00">9:30-10:30</time><div class="agenda-item"><span class="agenda-label">Invited Talk</span><strong>Recent Progress on the Matrix Factorization Approach to Differential Privacy</strong><span class="agenda-speaker">Christoph Lampert</span>
+              Matrix factorization has emerged as a powerful framework for improving the utility of differentially private algorithms by introducing carefully designed correlations into the added noise. In this talk, I will survey recent progress on this approach for machine learning tasks, concentrating on work with Nikita Kalinin and collaborators. I will discuss how suitable matrix factorizations lead to improved mechanisms for private model training and continual estimation, including sharper error bounds, efficient banded constructions, and on-the-fly noise re-generation.
+              </div></div>
               <div class="agenda-row"><time datetime="2026-06-11T14:50">10:30-11:00</time><strong>Coffee break</strong></div>
               <div class="agenda-row"><time datetime="2026-06-11T11:00">11:00-12:15</time><div class="agenda-item"><span class="agenda-label">Contributed Talks</span>
                 <strong>When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning</strong><span class="agenda-speaker">Wenrui Yu, Changlong Ji, Johannes Bjerva, <strong>Qiongxiu Li</strong></span>
@@ -153,16 +162,20 @@
         </div>
       </section>
 
-
-        <section class="section" aria-labelledby="venue">
+            <section class="section" aria-labelledby="venue">
         <h2 id="venue">Venue</h2>
         <div class="venue-details">
-          <p><strong>Location:</strong> Aarhus, Denmark</p>
-          <p>More details to come</p>
-          <!-- <a class="map-link" href="https://www.openstreetmap.org/?mlat=55.701361&amp;mlon=12.558523#map=18/55.701361/12.558523">
-            <img class="map" src="../assets/venue-map-osm.png" alt="OpenStreetMap view of Universitetsparken 13">
+          <p><strong>Location, Monday and Tuesday (November 2-3):</strong> William Scharff Audiorium (Building 1253, Room 317), Bartholins Alle 3, 8000 Aarhus C</p>
+          <a class="map-link" href="https://www.openstreetmap.org/?mlat=56.166888&mlon=10.205741#map=18/56.166888/10.205741">
+            <img class="map" src="../assets/map_mon_tues.png" alt="OpenStreetMap view of Bartholins Alle 3">
           </a>
-          <p><a href="https://www.openstreetmap.org/?mlat=55.701361&amp;mlon=12.558523#map=18/55.701361/12.558523">Open in OpenStreetMap</a> &middot; Map data &copy; OpenStreetMap contributors</p> -->
+          <p><a href="https://www.openstreetmap.org/?mlat=56.166888&mlon=10.205741#map=18/56.166888/10.205741">Open in OpenStreetMap</a> &middot; Map data &copy; OpenStreetMap contributors</p>
+
+          <p><strong>Location, Wednesday (November 4):</strong> Auditorium G1 (Building 1532, Room 116), Ny Munkegade 118, Aarhus C</p>
+                    <a class="map-link" href="https://www.openstreetmap.org/?mlat=56.166543&mlon=10.199540#map=19/56.166543/10.199540">
+            <img class="map" src="../assets/map_wed.png" alt="OpenStreetMap view of Ny Munkegade 118">
+          </a>
+          <p><a href="https://www.openstreetmap.org/?mlat=56.166543&mlon=10.199540#map=19/56.166543/10.199540">Open in OpenStreetMap</a> &middot; Map data &copy; OpenStreetMap contributors</p>
         </div>
       </section>
 
